@@ -25,6 +25,10 @@ function App() {
     setTodos((prev) => prev.filter((t) => t.id !== id));
   }
 
+  function handleHowAreYouClick() {
+    console.log('How are you?');
+  }
+
   return (
     <div className="app">
       <main className="todo-panel">
@@ -76,6 +80,14 @@ function App() {
             ))}
           </ul>
         )}
+
+        <button
+          type="button"
+          className="todo-how-are-you"
+          onClick={handleHowAreYouClick}
+        >
+          How are you?
+        </button>
       </main>
     </div>
   );
