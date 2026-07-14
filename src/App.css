@@ -24,6 +24,24 @@
   letter-spacing: -0.02em;
 }
 
+.how-are-you-btn {
+  display: block;
+  width: 100%;
+  margin: 0 0 1.25rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e293b;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.how-are-you-btn:hover {
+  background: #e2e8f0;
+}
+
 .todo-form {
   display: flex;
   gap: 0.5rem;
