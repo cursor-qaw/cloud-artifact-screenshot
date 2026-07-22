@@ -120,6 +120,24 @@
   background: #fef2f2;
 }
 
+.how-are-you {
+  margin-top: 1.25rem;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e3a5f;
+  background: #e8f1fc;
+  border: 1px solid #bfd4f0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.how-are-you:hover {
+  background: #d9e9fb;
+  border-color: #93b8e8;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
