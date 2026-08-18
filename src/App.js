@@ -7,6 +7,10 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [draft, setDraft] = useState('');
 
+  function logGreeting() {
+    console.log('How are you?');
+  }
+
   function addTodo(e) {
     e.preventDefault();
     const text = draft.trim();
@@ -47,6 +51,10 @@ function App() {
             Add
           </button>
         </form>
+
+        <button type="button" className="todo-greeting" onClick={logGreeting}>
+          Ask how are you?
+        </button>
 
         {todos.length === 0 ? (
           <p className="todo-empty">No tasks yet. Add one above.</p>
