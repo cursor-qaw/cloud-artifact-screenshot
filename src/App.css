@@ -18,10 +18,27 @@
 }
 
 .todo-title {
-  margin: 0 0 1.25rem;
+  margin: 0 0 1rem;
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.02em;
+}
+
+.greeting-button {
+  display: block;
+  margin: 0 0 1.25rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e3a5f;
+  background: #e0f2fe;
+  border: 1px solid #bae6fd;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.greeting-button:hover {
+  background: #bae6fd;
 }
 
 .todo-form {
