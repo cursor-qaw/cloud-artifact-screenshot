@@ -25,6 +25,10 @@ function App() {
     setTodos((prev) => prev.filter((t) => t.id !== id));
   }
 
+  function askHowAreYou() {
+    console.log('How are you?');
+  }
+
   return (
     <div className="app">
       <main className="todo-panel">
@@ -47,6 +51,10 @@ function App() {
             Add
           </button>
         </form>
+
+        <button type="button" className="how-are-you" onClick={askHowAreYou}>
+          How are you?
+        </button>
 
         {todos.length === 0 ? (
           <p className="todo-empty">No tasks yet. Add one above.</p>
