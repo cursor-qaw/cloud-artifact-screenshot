@@ -7,6 +7,11 @@ test('renders to-do heading', () => {
   expect(screen.getByRole('heading', { name: /to-do/i })).toBeInTheDocument();
 });
 
+test('renders how are you button', () => {
+  render(<App />);
+  expect(screen.getByRole('button', { name: /how are you\?/i })).toBeInTheDocument();
+});
+
 test('adds a task and shows it in the list', async () => {
   render(<App />);
 
