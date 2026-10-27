@@ -76,6 +76,14 @@ function App() {
             ))}
           </ul>
         )}
+
+        <button
+          type="button"
+          className="how-are-you"
+          onClick={() => console.log('How are you?')}
+        >
+          How are you?
+        </button>
       </main>
     </div>
   );
