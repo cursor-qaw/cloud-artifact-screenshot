@@ -48,6 +48,15 @@ function App() {
           </button>
         </form>
 
+        <button
+          type="button"
+          className="todo-add"
+          style={{ marginBottom: '1.25rem' }}
+          onClick={() => console.log('How are you?')}
+        >
+          How are you?
+        </button>
+
         {todos.length === 0 ? (
           <p className="todo-empty">No tasks yet. Add one above.</p>
         ) : (
