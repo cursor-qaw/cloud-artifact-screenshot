@@ -46,6 +46,13 @@ function App() {
           <button type="submit" className="todo-add">
             Add
           </button>
+          <button
+            type="button"
+            className="todo-add"
+            onClick={() => console.log('How are you?')}
+          >
+            Say hi
+          </button>
         </form>
 
         {todos.length === 0 ? (
